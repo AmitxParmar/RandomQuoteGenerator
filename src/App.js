@@ -20,15 +20,16 @@ const App = () => {
         fetchAdvice(); // Fetches a random quote every time the user reloads the page.
     }, [])
 
-    return (
+    return (<>
         <div className="app">
-            <div className='card'>
-                <h1 className='heading'>
-                    {advice}
-                </h1>
+            <div className="card">
+                <h1 className="heading">{advice}</h1>
+                <button className="button" onClick={fetchAdvice}>
+                    <span>GIVE ME ADVICE!</span>
+                </button>
             </div>
         </div>
-    );
+    </>);
 }
 
 export default App
