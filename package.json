@@ -1,5 +1,5 @@
 {
-  "name": "simple-cart-app",
+  "name": "Random Quote Generator",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -35,8 +35,8 @@
     ]
   },
   "main": "index.js",
-  "repository": "https://github.com/AmitxParmar/simple-react-cart-add-remove.git",
-  "description": "Practicing how the hooks works, with key attributes.",
+  "repository": "",
+  "description": "",
   "devDependencies": {},
   "author": "AmitxParmar <amitparmar901@gmail.com>",
   "license": "ISC"
